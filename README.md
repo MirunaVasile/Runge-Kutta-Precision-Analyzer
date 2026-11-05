@@ -56,7 +56,7 @@ Yₙ₊₁ = Yₙ + (k₁ + 2k₂ + 2k₃ + k₄) / 6
 
 ### 1. Linear model vs. RK4
 
-![Linear vs RK4 comparison](fig1_comparatie.png)
+![Linear vs RK4 comparison](pythonProject/fig1_comparatie.png)
 
 At small amplitudes the two curves practically coincide. As the amplitude grows, the nonlinear pendulum's period becomes longer, and after a few periods the curves end up in antiphase (phase drift).
 
@@ -68,11 +68,11 @@ At small amplitudes the two curves practically coincide. As the amplitude grows,
 
 ### 2. Period ratio `T(θ₀)/T₀` as a function of amplitude
 
-![Period ratio T/T0](fig2_perioada.png)
+![Period ratio T/T0](pythonProject/fig2_perioada.png)
 
 ### 3. Energy dissipation in the damped pendulum
 
-![Energy dissipation](fig3_disipare.png)
+![Energy dissipation](pythonProject/fig3_disipare.png)
 
 Energy decays exponentially with time constant `τ = 1/c`: the larger `c` is, the faster the pendulum comes to rest.
 
@@ -134,14 +134,7 @@ The parameters (`L`, `g`, the step `h`, the amplitudes, the damping coefficients
 
 ## Built with
 
-- [Python](https://www.python.org/)
-- [NumPy](https://numpy.org/) — numerical computation
-- [Matplotlib](https://matplotlib.org/) — plotting
+- [Python]
+- [NumPy] — numerical computation
+- [Matplotlib] — plotting
 
-## Author
-
-<!-- Fill in: First Last — GitHub / LinkedIn / email link -->
-
-## License
-
-<!-- Choose a license (e.g. MIT) and add a LICENSE file -->
