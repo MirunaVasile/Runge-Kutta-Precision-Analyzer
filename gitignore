@@ -1,0 +1,16 @@
+# Virtual environment
+.venv/
+venv/
+Lib/
+Scripts/
+Include/
+share/
+pyvenv.cfg
+
+# IDE
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
